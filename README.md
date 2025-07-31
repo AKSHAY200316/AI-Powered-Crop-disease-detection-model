@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎯 Objective
+To develop an AI-powered system that leverages crop images and real-time environmental data to detect plant diseases early and provide actionable recommendations for treatment and prevention.
 
-## Getting Started
+💡 Solution Overview
+We propose a scalable and accessible mobile and web-based application that integrates machine learning models and real-time environmental data to:
 
-First, run the development server:
+Detect crop diseases using image analysis
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Predict disease outbreaks based on environmental factors
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deliver real-time alerts to farmers
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Provide tailored treatment and preventive recommendations
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🔑 Key Features
+🧠 AI Image Analysis: Detects crop diseases using deep learning models trained on plant image datasets.
 
-## Learn More
+🌦 Environmental Data Integration: Enhances prediction accuracy by considering temperature, humidity, and soil moisture.
 
-To learn more about Next.js, take a look at the following resources:
+🔔 Real-Time Alerts: Notifies farmers about possible disease risks in their region.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📋 Actionable Insights: Offers disease-specific treatment and prevention plans.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+📱 User-Friendly Interface: Intuitive mobile and web UI built for ease of use by farmers with minimal technical background.
 
-## Deploy on Vercel
+🛠️ Tech Stack
+Layer	Technologies Used
+Frontend	React Native (Mobile), ReactJS (Web)
+Backend	Node.js, Express
+ML Models	Python (TensorFlow / PyTorch)
+Database	MongoDB (Crop data, images, environmental data)
+Cloud	AWS (Model hosting, data storage & services)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚀 Expected Outcomes
+📈 Increased Yield: Early detection empowers farmers to act swiftly and protect their crops.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+💰 Cost Savings: Reduces losses and minimizes treatment costs through timely interventions.
+
+🌍 Scalable Impact: Adaptable across diverse crops and geographic regions for broad applicability.
+
+📷 Sample Flow
+📤 Farmer uploads a crop image
+
+🧠 Model predicts possible disease
+
+🌡 Environmental data is fetched and analyzed
+
+📩 Farmer receives alerts and actionable treatment suggestions
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
