@@ -1,0 +1,1 @@
+# AI-Powered-Crop-disease-detection-model
