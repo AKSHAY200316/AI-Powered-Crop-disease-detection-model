@@ -1,3 +1,6 @@
+AI-Powered Crop Disease Prediction System
+
+
 🎯 Objective
 To develop an AI-powered system that leverages crop images and real-time environmental data to detect plant diseases early and provide actionable recommendations for treatment and prevention.
 
